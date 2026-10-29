@@ -7142,7 +7142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
