@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -6869,6 +6868,103 @@
 		)
 	)
 	(gr_line
+		(start 87.55 105.05)
+		(end 91.45 108.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e18bae1-e0a0-4f32-8c82-482a74331bcd")
+	)
+	(gr_line
+		(start 87.6 106.4)
+		(end 89.6 108)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a33b738a-6ba6-4c70-9fa8-4e203daae811")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 108.4 96.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "934564a5-f378-4eed-840e-e3d38b7ccc1f")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 109 92)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a87cff70-6d89-4113-a0e7-8fbdda190f5b")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 109 92.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f9dd2a16-513a-4656-a4fb-544906cc7456")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 109 93.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "093a24df-abfa-4480-8694-964b7fd57dbd")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 109 93.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6d2ae2d1-c950-43de-87c0-ac12de07f9f5")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 109 94.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cea2d603-dbbb-4cdb-8df8-8f3c3c3b4886")
+	)
+	(gr_circle
+		(center 109 91.4)
+		(end 109 95.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b5d1d13-8d7d-4166-a147-8aa38df13d02")
+	)
+	(gr_line
 		(start 83.7 82.8)
 		(end 83.7 112.5)
 		(stroke
@@ -6948,10 +7044,10 @@
 		(layer "Edge.Cuts")
 		(uuid "e98403b3-807b-49d9-b499-f89d995d6b85")
 	)
-	(gr_text "S.F.H"
-		(at 85.7 106.7 0)
+	(gr_text "OSC"
+		(at 84.7 104.1 0)
 		(layer "F.SilkS")
-		(uuid "22557d10-1a52-443e-8c76-122833ffca33")
+		(uuid "e6a12001-7a2b-4b46-9094-66f62a1b29ca")
 		(effects
 			(font
 				(size 1 1)
@@ -6960,10 +7056,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "I2C"
-		(at 95 109 0)
+	(gr_text "BOOT"
+		(at 88.7 88.6 0)
 		(layer "F.SilkS")
-		(uuid "dcd8843e-e7a3-4600-9595-1bb956c05bc6")
+		(uuid "f971493b-cff7-461e-8529-fd53cf012ae2")
 		(effects
 			(font
 				(size 1 1)
@@ -6973,7 +7069,7 @@
 		)
 	)
 	(gr_text "UART"
-		(at 95.4 87.7 0)
+		(at 94.6 86.9 0)
 		(layer "F.SilkS")
 		(uuid "f38e5ff7-acbc-40db-94ae-3c075eed68d1")
 		(effects
@@ -6984,8 +7080,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "I2C"
+		(at 96.5 109.9 0)
+		(layer "F.SilkS")
+		(uuid "dcd8843e-e7a3-4600-9595-1bb956c05bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "STM32"
+		(at 104.2 101.1 0)
+		(layer "F.SilkS")
+		(uuid "74711db9-7e89-46cc-b9b7-e61ff3ed7e25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SWD"
-		(at 108.4 87.5 0)
+		(at 108.6 86.8 0)
 		(layer "F.SilkS")
 		(uuid "4e2d0857-81b4-415a-9fd4-44efe4299d3d")
 		(effects
@@ -6996,8 +7116,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "REG"
+		(at 110.5 103.8 0)
+		(layer "F.SilkS")
+		(uuid "6d2a17d4-b4d5-4af8-beb4-9f70cf6306f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "USB"
-		(at 111 95.1 0)
+		(at 116.3 91.7 0)
 		(layer "F.SilkS")
 		(uuid "d607cc81-5878-4d17-bb10-7017dcaf6569")
 		(effects
