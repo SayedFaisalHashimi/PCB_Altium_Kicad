@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "height": 0.4,
+          "width": 0.46
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -144,14 +144,14 @@
         "track_width": "error",
         "tracks_crossing": "error",
         "tuning_profile_track_geometries": "ignore",
-        "unconnected_items": "error",
+        "unconnected_items": "warning",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.18,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
@@ -689,7 +689,7 @@
         "uuid": "4ab6b0d3-7f6e-444c-9682-64d2e430034e"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-25,C1-13,D1,FB1,J1-5,R1-5,SW1,U1-3,Y1",
+    "used_designators": "#FLG1-2,#PWR1-25,C1-13,D1,FB1,H1-4,J1-5,R1-5,SW1,U1-3,Y1",
     "variants": []
   },
   "sheets": [
